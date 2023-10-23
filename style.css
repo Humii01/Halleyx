@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:  sans-serif;
+    font-size: medium;
+}
+body{
+    background: none;
+}
+
+.wrapper{
+    display: inline-block;
+    position: relative;
+
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background:#010a1d;
+    padding: 20px;
+
+}
+
+.wrapper .sidebar h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family:  Verdana;
+    font-size:large;
+
+}
+
+.wrapper .sidebar ul li{
+    padding: 5px;
+    }
+
+.wrapper .sidebar ul li a{
+    font-family:system-ui;
+    color:white;
+    padding: 1px;
+    position: relative;
+  
+   }
+.wrapper .sidebar ul li:hover{
+    background: #01082e;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+}
+
+.wrapper .main_content .header{
+    padding: 20px;
+    background: #fff;
+    
+}
+
+.top-buttons{
+   position: fixed;
+   top: 10px;
+   right: 0px;
+   display: block;
+}
+
+.button1{
+    padding: 7px 15px;
+    margin-right: 10px;
+    background-color:rgb(7, 116, 116);
+    border: 1px solid;
+    border-color:rgb(7, 116, 116);
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgb(11, 129, 129);
+}
+  
+.button2{
+    padding: 7px 15px;
+    margin-right :10px;
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(7, 116, 116);
+    color:black;
+}
+
+.button2:hover {
+    background-color: rgb(180, 222, 222);
+}
+
+.bottom-buttons{
+    position: fixed;
+    bottom: 35px;
+    right:10px;
+    display: block;
+}
+
+.button3{
+    padding: 7px 15px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-color:rgb(7, 116, 116) ;
+    color: black;
+}
+
+.button3:hover {
+    background-color: rgb(180, 222, 222);
+}
+
+.button4{
+    padding: 7px 15px;
+    margin-right: 10px;
+    background-color:rgb(7, 116, 116) ;
+    border: 1px solid;
+    border-color:  rgb(7, 116, 116);
+    color:white;
+}
+
+.button4:hover {
+    background-color: rgb(105, 196, 196);
+}
+
+#layout1{
+    position: fixed;
+    top:50px;
+    right:10px;
+    display: flex;
+    border:1px dashed rgb(7, 116, 116) ;
+    width: 43%;
+    height: 90%;
+}
+
+#layout2{
+    position: fixed;
+    top: 50px;
+    right:10px;
+    display: flex;
+    border: 1px dashed rgb(7, 116, 116) ;
+    width: 85%;
+    height: 90%;
+}
+
+#layout3{
+    position: fixed;
+    bottom:25px;
+    right: 10px;
+    display: flex;
+    border: 1px dashed rgb(7, 116, 116) ;
+    width: 43%;
+    height: 7%;
+}
+
+#layout4{
+    position: fixed;
+    top: 50px;
+    left: 213px;
+    display: flex;
+    border: 1px dashed  rgb(7, 116, 116) ;
+    width: 42%; 
+    height: 7%;
+}
+
+#layout4 .icons{
+    display: relative;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 50px;
+    height: 40px;
+    color:  rgb(7, 116, 116);
+    font-size: 30px;
+}
+
+#layout1{
+    font-size: 17px;
+    font-family: system-ui;
+    text-align: justify;
+    padding: 10px;
+}
